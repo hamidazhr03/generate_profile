@@ -1,3 +1,4 @@
+# Using Faker for Python in Generating Profile Data
 # generate_profile
 
 Dalam bidang pengembangan perangkat lunak dan analisis data, kemampuan untuk menghasilkan profil data yang realistis dan beragam merupakan aspek yang sangat penting. Di sinilah perpustakaan Python Faker berperan, menyediakan alat yang ampuh untuk membuat data sintetis yang dapat digunakan untuk berbagai tujuan, seperti pengujian, pembuatan prototipe, dan penambahan data. Pembuatan data sintetis menjadi semakin relevan, terutama di bidang-bidang seperti perawatan kesehatan, di mana perlindungan informasi pasien yang sensitif menjadi perhatian utama. (McDuff et al., 2023) 
