@@ -41,6 +41,25 @@ def generate_multiple_profiles(n):
     return profiles
 
 # Contoh penggunaan
+from faker import Faker
+
+fake = Faker()
+
+def generate_profile():
+    profile = {
+        "username": fake.user_name(),
+        "name": fake.name(),
+        "address": fake.address(),
+        "email": fake.email()
+    }
+    return profile
+
+def generate_multiple_profiles(n):
+    profiles = []
+    for _ in range(n):
+        profiles.append(generate_profile())
+    return profiles
+
 if __name__ == "__main__":
     jumlah_profil = 5  # Tentukan jumlah profil yang ingin dibuat
     profiles = generate_multiple_profiles(jumlah_profil)
@@ -52,8 +71,7 @@ if __name__ == "__main__":
         print(f"Address  : {profile['address']}")
         print(f"Email    : {profile['email']}")
         print("="*40)
+
  
 Referensi
 McDuff, D., Curran, T., & Kadambi, A. (2023, Januari 1). Data Sintetis dalam Perawatan Kesehatan. Cornell University. https://doi.org/10.48550/arxiv.2304.03243
-
-Translated with DeepL.com (free version)
